@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, name|
       key = name
     end
+    new_array
   end
 end

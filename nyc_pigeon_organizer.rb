@@ -11,6 +11,6 @@ def nyc_pigeon_organizer(data)
       end
     end
     new_array
-    bindind.pry
+    binding.pry
   end
 end

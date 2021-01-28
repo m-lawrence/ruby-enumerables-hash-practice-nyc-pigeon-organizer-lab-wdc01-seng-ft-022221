@@ -12,6 +12,9 @@ def nyc_pigeon_organizer(data)
         if !new_array[name][key]
           new_array[name][key] = []
         end
+        if inner_key.include?(name)
+          
+        end
       end
     end
     new_array

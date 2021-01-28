@@ -4,6 +4,6 @@ def nyc_pigeon_organizer(data)
   
   data.each_with_object({}) do |(key, value), new_array|
     new_array[key] = v
-    binding.pry
   end
 end
+binding.pry
